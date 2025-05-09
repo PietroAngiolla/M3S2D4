@@ -4,6 +4,24 @@
     box-sizing: border-box;
 }
 
+.nav{
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+}
+
+.last-minute img{
+    height: 250px;
+}
+
+.logo{
+    height: 80px;
+    margin-right: auto;
+}
+
 .stc-description{
     display: flex;
     justify-content: space-around;
@@ -21,7 +39,7 @@
 
 .shadow img{
     box-shadow: 4px 4px 10px black;
-    padding: 0;
+    height: 150px;
 }
 
 

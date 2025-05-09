@@ -19,6 +19,12 @@
     font-size: larger;
 }
 
+.shadow img{
+    box-shadow: 4px 4px 10px black;
+    padding: 0;
+}
+
+
 @media (max-width: 557px){
     .stc-description{
         display: none;

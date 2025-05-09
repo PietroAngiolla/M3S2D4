@@ -3,3 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.stc-description{
+    display: flex;
+    justify-content: space-around;
+}
+
+.stoccolma{
+    width: 66%;
+    height: auto;
+}
+
+.description{
+    width: 33%;
+    font-size: larger;
+}
+
+@media (max-width: 557px){
+    .stc-description{
+        display: none;
+    }
+    #today-sale{
+        display: none;
+    }
+}
